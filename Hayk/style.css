@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    /* margin: 0; */
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#sections{
+    width: 7.5%;
+    height: 100%;
+    background-color: gray;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+#sections div{
+    width: 100%;
+    height: 20%;
+}
+#sections div h2{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#sections div:hover{
+    background-color: black;
+}
+#home_page{
+    width: 92.5%;
+    height: 100%;
+    background-image: url("https://images.hdqwalls.com/wallpapers/binary-code-6y.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h2, p, dl{
+    color: white;
+}
+#about_page{
+    width: 92.5%;
+    height: 100%;
+    position: relative;
+    left: 7.5%;
+}
+dd div{
+    width: 80%;
+    height: 20px;
+    border: 1px solid white;
+}
+dd div div{
+    background-color: gray;
+    height: 100%;
+}
+#html_skill div{
+    width: 90%;
+}
+#css_skill div{
+    width: 70%;
+}
+#js_skill div{
+    width: 80%;
+}
+#php_skill div{
+    width: 40%;
+}
+#sql_skill div{
+    width: 20%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
