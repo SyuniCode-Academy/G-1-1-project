@@ -9,6 +9,7 @@ html, body{
 }
 body{
     background-color: black;
+    padding: 10px;
 }
 h1{
     display: flex;
@@ -44,10 +45,16 @@ h1{
     background-position: center;
     background-repeat: no-repeat;
 }
-h2, p, dl{
+h2, p, dl, ul, ol{
     color: white;
 }
 #about_page{
+    width: 92.5%;
+    height: 100%;
+    position: relative;
+    left: 7.5%;
+}
+#project_page{
     width: 92.5%;
     height: 100%;
     position: relative;
@@ -76,6 +83,9 @@ dd div div{
 }
 #sql_skill div{
     width: 20%;
+}
+#python_skill div{
+    width: 95%;
 }
 a{
     color: white;
